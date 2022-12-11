@@ -1,0 +1,21 @@
+{
+  "name": "custom-linter",
+  "version": "1.0.0",
+  "repository": "git@github.com:NerOcrO/custom-linter.git",
+  "license": "MIT",
+  "scripts": {
+    "lint:css": "stylelint playground.css",
+    "lint:js": "eslint playground.js",
+    "lint:js:fix": "eslint playground.js --fix",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-octo": "./eslint-plugin-octo",
+    "jest": "^29.3.1",
+    "jest-preset-stylelint": "^6.0.0",
+    "stylelint": "^14.16.0"
+  },
+  "packageManager": "yarn@3.3.0"
+}
